@@ -1,0 +1,962 @@
+[
+  {
+    "id": "MAT001",
+    "name": "Ordinary Portland Cement (OPC)",
+    "category": "Cementitious Materials",
+    "file": "MAT001.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT002",
+    "name": "Fly Ash Based Portland Pozzolana Cement",
+    "category": "Cementitious Materials",
+    "file": "MAT002.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT003",
+    "name": "Calcined Clay Based Portland Pozzolana Cement",
+    "category": "Cementitious Materials",
+    "file": "MAT003.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT004",
+    "name": "Portland Slag Cement",
+    "category": "Cementitious Materials",
+    "file": "MAT004.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT005",
+    "name": "Composite Cement",
+    "category": "Cementitious Materials",
+    "file": "MAT005.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT006",
+    "name": "Portland Calcined Clay Limestone Cement (LC3)",
+    "category": "Cementitious Materials",
+    "file": "MAT006.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT007",
+    "name": "Ground Granulated Blast Furnace Slag (GGBS)",
+    "category": "Cementitious Materials",
+    "file": "MAT007.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT008",
+    "name": "Fly Ash",
+    "category": "Cementitious Materials",
+    "file": "MAT008.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT009",
+    "name": "Silica Fume",
+    "category": "Cementitious Materials",
+    "file": "MAT009.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT010",
+    "name": "Metakaolin",
+    "category": "Cementitious Materials",
+    "file": "MAT010.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT011",
+    "name": "Rice Husk Ash",
+    "category": "Cementitious Materials",
+    "file": "MAT011.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT012",
+    "name": "Lime-Pozzolana Binder",
+    "category": "Cementitious Materials",
+    "file": "MAT012.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT013",
+    "name": "Geopolymer Binder",
+    "category": "Cementitious Materials",
+    "file": "MAT013.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT014",
+    "name": "Supersulphated Cement",
+    "category": "Cementitious Materials",
+    "file": "MAT014.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT015",
+    "name": "Building Lime",
+    "category": "Cementitious Materials",
+    "file": "MAT015.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT016",
+    "name": "Natural River Sand",
+    "category": "Aggregates",
+    "file": "MAT016.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT017",
+    "name": "Crushed Stone Aggregate",
+    "category": "Aggregates",
+    "file": "MAT017.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT018",
+    "name": "Manufactured Sand (M-Sand)",
+    "category": "Aggregates",
+    "file": "MAT018.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT019",
+    "name": "Recycled Concrete Aggregate",
+    "category": "Aggregates",
+    "file": "MAT019.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT020",
+    "name": "Recycled Masonry Aggregate",
+    "category": "Aggregates",
+    "file": "MAT020.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT021",
+    "name": "Recycled Asphalt Pavement Aggregate",
+    "category": "Aggregates",
+    "file": "MAT021.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT022",
+    "name": "Steel Slag Aggregate",
+    "category": "Aggregates",
+    "file": "MAT022.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT023",
+    "name": "Copper Slag Aggregate",
+    "category": "Aggregates",
+    "file": "MAT023.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT024",
+    "name": "Expanded Clay Aggregate",
+    "category": "Aggregates",
+    "file": "MAT024.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT025",
+    "name": "Sintered Fly Ash Aggregate",
+    "category": "Aggregates",
+    "file": "MAT025.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT026",
+    "name": "Pumice Aggregate",
+    "category": "Aggregates",
+    "file": "MAT026.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT027",
+    "name": "Recycled Glass Aggregate",
+    "category": "Aggregates",
+    "file": "MAT027.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT028",
+    "name": "Crushed Brick Aggregate",
+    "category": "Aggregates",
+    "file": "MAT028.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT029",
+    "name": "Recycled Ceramic Aggregate",
+    "category": "Aggregates",
+    "file": "MAT029.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT030",
+    "name": "Laterite Aggregate",
+    "category": "Aggregates",
+    "file": "MAT030.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT031",
+    "name": "Burnt Clay Brick",
+    "category": "Masonry Materials",
+    "file": "MAT031.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT032",
+    "name": "Fly Ash Brick",
+    "category": "Masonry Materials",
+    "file": "MAT032.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT033",
+    "name": "Autoclaved Aerated Concrete Block (AAC)",
+    "category": "Masonry Materials",
+    "file": "MAT033.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT034",
+    "name": "Concrete Hollow Block",
+    "category": "Masonry Materials",
+    "file": "MAT034.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT035",
+    "name": "Concrete Solid Block",
+    "category": "Masonry Materials",
+    "file": "MAT035.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT036",
+    "name": "Compressed Stabilized Earth Block (CSEB)",
+    "category": "Masonry Materials",
+    "file": "MAT036.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT037",
+    "name": "Unstabilized Compressed Earth Block",
+    "category": "Masonry Materials",
+    "file": "MAT037.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT038",
+    "name": "Interlocking Earth Block",
+    "category": "Masonry Materials",
+    "file": "MAT038.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT039",
+    "name": "Laterite Stone Block",
+    "category": "Masonry Materials",
+    "file": "MAT039.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT040",
+    "name": "Lime-Sand Brick",
+    "category": "Masonry Materials",
+    "file": "MAT040.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT041",
+    "name": "Hempcrete Block",
+    "category": "Masonry Materials",
+    "file": "MAT041.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT042",
+    "name": "Recycled Plastic Masonry Block",
+    "category": "Masonry Materials",
+    "file": "MAT042.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT043",
+    "name": "Geopolymer Concrete Block",
+    "category": "Masonry Materials",
+    "file": "MAT043.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT044",
+    "name": "Recycled Aggregate Concrete Block",
+    "category": "Masonry Materials",
+    "file": "MAT044.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT045",
+    "name": "Straw-Clay Masonry Unit",
+    "category": "Masonry Materials",
+    "file": "MAT045.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT046",
+    "name": "Mild Steel Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT046.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT047",
+    "name": "High Strength Deformed Steel Bar",
+    "category": "Reinforcement Materials",
+    "file": "MAT047.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT048",
+    "name": "Thermo-Mechanically Treated (TMT) Bar",
+    "category": "Reinforcement Materials",
+    "file": "MAT048.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT049",
+    "name": "Corrosion-Resistant Reinforcement Steel",
+    "category": "Reinforcement Materials",
+    "file": "MAT049.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT050",
+    "name": "Stainless Steel Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT050.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT051",
+    "name": "Galvanized Steel Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT051.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT052",
+    "name": "Epoxy-Coated Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT052.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT053",
+    "name": "Glass Fibre Reinforced Polymer (GFRP) Bar",
+    "category": "Reinforcement Materials",
+    "file": "MAT053.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT054",
+    "name": "Carbon Fibre Reinforced Polymer (CFRP) Bar",
+    "category": "Reinforcement Materials",
+    "file": "MAT054.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT055",
+    "name": "Basalt Fibre Reinforced Polymer Bar",
+    "category": "Reinforcement Materials",
+    "file": "MAT055.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT056",
+    "name": "Fibre Reinforced Concrete Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT056.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT057",
+    "name": "Recycled Steel Reinforcement",
+    "category": "Reinforcement Materials",
+    "file": "MAT057.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT058",
+    "name": "Structural Timber",
+    "category": "Timber & Natural Materials",
+    "file": "MAT058.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT059",
+    "name": "Bamboo Reinforcement",
+    "category": "Timber & Natural Materials",
+    "file": "MAT059.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT060",
+    "name": "Engineered Bamboo",
+    "category": "Timber & Natural Materials",
+    "file": "MAT060.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT061",
+    "name": "Cross Laminated Timber (CLT)",
+    "category": "Timber & Natural Materials",
+    "file": "MAT061.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT062",
+    "name": "Laminated Veneer Lumber (LVL)",
+    "category": "Timber & Natural Materials",
+    "file": "MAT062.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT063",
+    "name": "Glulam",
+    "category": "Timber & Natural Materials",
+    "file": "MAT063.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT064",
+    "name": "Reclaimed Timber",
+    "category": "Timber & Natural Materials",
+    "file": "MAT064.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT065",
+    "name": "Coconut Timber",
+    "category": "Timber & Natural Materials",
+    "file": "MAT065.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT066",
+    "name": "Cork Insulation",
+    "category": "Timber & Natural Materials",
+    "file": "MAT066.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT067",
+    "name": "Hemp Fibre Board",
+    "category": "Timber & Natural Materials",
+    "file": "MAT067.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT068",
+    "name": "Straw Bale",
+    "category": "Timber & Natural Materials",
+    "file": "MAT068.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT069",
+    "name": "Coir Fibre Composite",
+    "category": "Timber & Natural Materials",
+    "file": "MAT069.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT070",
+    "name": "Galvanized Iron Roofing Sheet",
+    "category": "Roofing & Insulation",
+    "file": "MAT070.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT071",
+    "name": "Colour-Coated Steel Roofing Sheet",
+    "category": "Roofing & Insulation",
+    "file": "MAT071.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT072",
+    "name": "Fibre Cement Roofing Sheet",
+    "category": "Roofing & Insulation",
+    "file": "MAT072.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT073",
+    "name": "Recycled Plastic Roofing Sheet",
+    "category": "Roofing & Insulation",
+    "file": "MAT073.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT074",
+    "name": "Recycled Tetra Pak Roofing Panel",
+    "category": "Roofing & Insulation",
+    "file": "MAT074.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT075",
+    "name": "Clay Roof Tile",
+    "category": "Roofing & Insulation",
+    "file": "MAT075.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT076",
+    "name": "Concrete Roof Tile",
+    "category": "Roofing & Insulation",
+    "file": "MAT076.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT077",
+    "name": "Green Roof System",
+    "category": "Roofing & Insulation",
+    "file": "MAT077.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT078",
+    "name": "Expanded Polystyrene (EPS) Insulation",
+    "category": "Roofing & Insulation",
+    "file": "MAT078.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT079",
+    "name": "Extruded Polystyrene (XPS) Insulation",
+    "category": "Roofing & Insulation",
+    "file": "MAT079.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT080",
+    "name": "Mineral Wool Insulation",
+    "category": "Roofing & Insulation",
+    "file": "MAT080.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT081",
+    "name": "Cellulose Fibre Insulation",
+    "category": "Roofing & Insulation",
+    "file": "MAT081.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT082",
+    "name": "Ceramic Floor Tile",
+    "category": "Finishes & Flooring",
+    "file": "MAT082.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT083",
+    "name": "Vitrified Tile",
+    "category": "Finishes & Flooring",
+    "file": "MAT083.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT084",
+    "name": "Natural Stone Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT084.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT085",
+    "name": "Terrazzo Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT085.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT086",
+    "name": "Recycled Glass Terrazzo",
+    "category": "Finishes & Flooring",
+    "file": "MAT086.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT087",
+    "name": "Recycled Rubber Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT087.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT088",
+    "name": "Bamboo Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT088.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT089",
+    "name": "Cork Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT089.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT090",
+    "name": "Linoleum Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT090.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT091",
+    "name": "Polished Concrete Flooring",
+    "category": "Finishes & Flooring",
+    "file": "MAT091.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT092",
+    "name": "Lime Plaster",
+    "category": "Finishes & Flooring",
+    "file": "MAT092.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT093",
+    "name": "Clay Plaster",
+    "category": "Finishes & Flooring",
+    "file": "MAT093.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT094",
+    "name": "Gypsum Plaster",
+    "category": "Finishes & Flooring",
+    "file": "MAT094.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT095",
+    "name": "Recycled Plastic Composite Decking",
+    "category": "Finishes & Flooring",
+    "file": "MAT095.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT096",
+    "name": "Reclaimed Wood Finish",
+    "category": "Finishes & Flooring",
+    "file": "MAT096.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT097",
+    "name": "Dense Bituminous Macadam",
+    "category": "Roads & Pavements",
+    "file": "MAT097.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT098",
+    "name": "Bituminous Concrete",
+    "category": "Roads & Pavements",
+    "file": "MAT098.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT099",
+    "name": "Warm Mix Asphalt",
+    "category": "Roads & Pavements",
+    "file": "MAT099.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT100",
+    "name": "Cold Mix Asphalt",
+    "category": "Roads & Pavements",
+    "file": "MAT100.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT101",
+    "name": "Reclaimed Asphalt Pavement Mix",
+    "category": "Roads & Pavements",
+    "file": "MAT101.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT102",
+    "name": "Plastic Waste Modified Bitumen Mix",
+    "category": "Roads & Pavements",
+    "file": "MAT102.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT103",
+    "name": "Rubberized Bitumen Mix",
+    "category": "Roads & Pavements",
+    "file": "MAT103.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT104",
+    "name": "Roller Compacted Concrete Pavement",
+    "category": "Roads & Pavements",
+    "file": "MAT104.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT105",
+    "name": "Permeable Concrete Pavement",
+    "category": "Roads & Pavements",
+    "file": "MAT105.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT106",
+    "name": "Interlocking Concrete Paver",
+    "category": "Roads & Pavements",
+    "file": "MAT106.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT107",
+    "name": "Recycled Aggregate Sub-base",
+    "category": "Roads & Pavements",
+    "file": "MAT107.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT108",
+    "name": "Soil-Cement Stabilized Base",
+    "category": "Roads & Pavements",
+    "file": "MAT108.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT109",
+    "name": "Conventional Cast-in-Situ RCC",
+    "category": "Construction Systems",
+    "file": "MAT109.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT110",
+    "name": "Precast Concrete Construction",
+    "category": "Construction Systems",
+    "file": "MAT110.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT111",
+    "name": "Precast Wall Panel System",
+    "category": "Construction Systems",
+    "file": "MAT111.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT112",
+    "name": "Modular Construction",
+    "category": "Construction Systems",
+    "file": "MAT112.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT113",
+    "name": "Light Gauge Steel Framing",
+    "category": "Construction Systems",
+    "file": "MAT113.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT114",
+    "name": "Structural Steel Framing",
+    "category": "Construction Systems",
+    "file": "MAT114.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT115",
+    "name": "Timber Frame Construction",
+    "category": "Construction Systems",
+    "file": "MAT115.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT116",
+    "name": "Bamboo Frame Construction",
+    "category": "Construction Systems",
+    "file": "MAT116.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT117",
+    "name": "Rammed Earth Construction",
+    "category": "Construction Systems",
+    "file": "MAT117.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT118",
+    "name": "Ferrocement Construction",
+    "category": "Construction Systems",
+    "file": "MAT118.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT119",
+    "name": "3D Concrete Printing",
+    "category": "Construction Systems",
+    "file": "MAT119.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  },
+  {
+    "id": "MAT120",
+    "name": "Insulated Concrete Formwork (ICF)",
+    "category": "Construction Systems",
+    "file": "MAT120.svg",
+    "type": "unique custom SVG illustration",
+    "note": "Illustration, not a photograph or product certification image."
+  }
+]
