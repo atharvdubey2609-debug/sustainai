@@ -20,24 +20,24 @@ const applicabilityLabel: Record<StandardRecord["applicability"], string> = {
 
 const applicabilityStyle: Record<StandardRecord["applicability"], string> = {
   direct:
-    "bg-emerald-100 text-emerald-900 dark:bg-emerald-900 dark:text-emerald-100",
+    "bg-emerald-100 text-emerald-900",
   related:
-    "bg-amber-100 text-amber-950 dark:bg-amber-900 dark:text-amber-100",
+    "bg-amber-100 text-amber-950",
   guidance:
-    "bg-blue-100 text-blue-950 dark:bg-blue-900 dark:text-blue-100",
+    "bg-blue-100 text-blue-950",
 };
 
 const inputStyle =
-  "w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-medium text-slate-900 placeholder:text-slate-500 outline-none transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-500/20 dark:border-slate-600 dark:bg-slate-950 dark:text-white dark:placeholder:text-slate-400 dark:focus:border-emerald-400";
+  "w-full rounded-xl border border-[#d7ded3] bg-[#fffefa] px-4 py-3 text-sm font-medium text-[#1d3028] placeholder:text-slate-500 outline-none transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-500/20";
 
 const cardStyle =
-  "rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900";
+  "rounded-2xl border border-[#e1e5dc] bg-[#fffefa] shadow-sm";
 
-const headingStyle = "font-bold text-slate-950 dark:text-white";
+const headingStyle = "font-bold text-[#1d3028]";
 
-const bodyTextStyle = "text-slate-700 dark:text-slate-200";
+const bodyTextStyle = "text-[#42584a]";
 
-const mutedTextStyle = "text-slate-600 dark:text-slate-300";
+const mutedTextStyle = "text-[#66766b]";
 
 export default function StandardsModule() {
   const [search, setSearch] = useState("");
@@ -116,18 +116,18 @@ export default function StandardsModule() {
   };
 
   return (
-    <div className="space-y-7 text-slate-900 dark:text-slate-100">
+    <div className="space-y-7 text-[#1d3028]">
       {/* HEADER */}
       <header>
-        <p className="text-sm font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+        <p className="text-sm font-bold uppercase tracking-wider text-[#286044]">
           SustainAI / Technical Database
         </p>
 
-        <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white">
+        <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-[#1d3028]">
           IS Standards & Guidelines
         </h1>
 
-        <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-700 dark:text-slate-300">
+        <p className="mt-3 max-w-3xl text-sm leading-7 text-[#42584a]">
           Explore Indian Standards, related technical references and
           engineering guidelines associated with sustainable and
           conventional construction materials.
@@ -179,7 +179,7 @@ export default function StandardsModule() {
 
           <button
             onClick={resetFilters}
-            className="rounded-lg border border-emerald-700 px-4 py-2 text-sm font-bold text-emerald-800 transition hover:bg-emerald-50 dark:border-emerald-500 dark:text-emerald-300 dark:hover:bg-emerald-950"
+            className="rounded-lg border border-emerald-700 px-4 py-2 text-sm font-bold text-[#20553e] transition hover:bg-emerald-50"
           >
             Reset filters
           </button>
@@ -236,7 +236,7 @@ export default function StandardsModule() {
 
         <p className={`mt-4 text-sm font-medium ${mutedTextStyle}`}>
           Showing{" "}
-          <span className="font-bold text-slate-950 dark:text-white">
+          <span className="font-bold text-[#1d3028]">
             {filteredStandards.length}
           </span>{" "}
           of {standards.length} references
@@ -250,7 +250,7 @@ export default function StandardsModule() {
             Standards Database
           </h2>
 
-          <span className="rounded-lg bg-slate-100 px-3 py-1.5 text-sm font-bold text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+          <span className="rounded-lg bg-[#edf1e9] px-3 py-1.5 text-sm font-bold text-[#30483b]">
             {filteredStandards.length} results
           </span>
         </div>
@@ -282,15 +282,15 @@ export default function StandardsModule() {
               >
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div className="min-w-0 flex-1">
-                    <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+                    <p className="text-xs font-extrabold uppercase tracking-wider text-[#286044]">
                       {standard.category}
                     </p>
 
-                    <h3 className="mt-2 text-xl font-extrabold text-slate-950 dark:text-white">
+                    <h3 className="mt-2 text-xl font-extrabold text-[#1d3028]">
                       {standard.code}
                     </h3>
 
-                    <p className="mt-2 text-sm font-semibold leading-6 text-slate-800 dark:text-slate-200">
+                    <p className="mt-2 text-sm font-semibold leading-6 text-[#30483b]">
                       {standard.title}
                     </p>
                   </div>
@@ -304,12 +304,12 @@ export default function StandardsModule() {
                   </span>
                 </div>
 
-                <p className="mt-4 line-clamp-3 text-sm leading-6 text-slate-700 dark:text-slate-300">
+                <p className="mt-4 line-clamp-3 text-sm leading-6 text-[#42584a]">
                   {standard.description}
                 </p>
 
                 <div className="mt-5">
-                  <p className="mb-2 text-xs font-extrabold uppercase tracking-wide text-slate-600 dark:text-slate-300">
+                  <p className="mb-2 text-xs font-extrabold uppercase tracking-wide text-[#66766b]">
                     Applicable materials
                   </p>
 
@@ -319,26 +319,26 @@ export default function StandardsModule() {
                       .map((name) => (
                         <span
                           key={name}
-                          className="rounded-lg bg-slate-100 px-2.5 py-1.5 text-xs font-semibold text-slate-800 dark:bg-slate-800 dark:text-slate-200"
+                          className="rounded-lg bg-[#edf1e9] px-2.5 py-1.5 text-xs font-semibold text-[#30483b]"
                         >
                           {name}
                         </span>
                       ))}
 
                     {standard.applicableMaterials.length > 3 && (
-                      <span className="rounded-lg bg-slate-100 px-2.5 py-1.5 text-xs font-bold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
+                      <span className="rounded-lg bg-[#edf1e9] px-2.5 py-1.5 text-xs font-bold text-[#42584a]">
                         +{standard.applicableMaterials.length - 3} more
                       </span>
                     )}
                   </div>
                 </div>
 
-                <div className="mt-5 flex items-center justify-between gap-3 border-t border-slate-200 pt-4 dark:border-slate-700">
-                  <span className="text-xs font-semibold text-slate-600 dark:text-slate-300">
+                <div className="mt-5 flex items-center justify-between gap-3 border-t border-[#e1e5dc] pt-4">
+                  <span className="text-xs font-semibold text-[#66766b]">
                     Edition: {standard.year}
                   </span>
 
-                  <span className="text-sm font-extrabold text-emerald-700 group-hover:text-emerald-800 dark:text-emerald-400 dark:group-hover:text-emerald-300">
+                  <span className="text-sm font-extrabold text-[#286044] group-hover:text-[#20553e]">
                     View details →
                   </span>
                 </div>
@@ -358,23 +358,23 @@ export default function StandardsModule() {
             role="dialog"
             aria-modal="true"
             aria-labelledby="standard-modal-title"
-            className="my-6 max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-2xl border border-slate-200 bg-white p-5 text-slate-900 shadow-2xl sm:p-7 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+            className="my-6 max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-2xl border border-[#e1e5dc] bg-[#fffefa] p-5 text-[#1d3028] shadow-2xl sm:p-7"
             onClick={(event) => event.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-4">
               <div className="min-w-0">
-                <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+                <p className="text-xs font-extrabold uppercase tracking-wider text-[#286044]">
                   {selectedStandard.category}
                 </p>
 
                 <h2
                   id="standard-modal-title"
-                  className="mt-2 break-words text-2xl font-extrabold text-slate-950 dark:text-white"
+                  className="mt-2 break-words text-2xl font-extrabold text-[#1d3028]"
                 >
                   {selectedStandard.code}
                 </h2>
 
-                <p className="mt-2 text-sm font-semibold leading-6 text-slate-700 dark:text-slate-200">
+                <p className="mt-2 text-sm font-semibold leading-6 text-[#42584a]">
                   {selectedStandard.title}
                 </p>
               </div>
@@ -382,7 +382,7 @@ export default function StandardsModule() {
               <button
                 onClick={() => setSelectedStandard(null)}
                 aria-label="Close details"
-                className="shrink-0 rounded-lg border border-slate-300 px-3 py-2 text-xl font-bold text-slate-700 hover:bg-slate-100 dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800"
+                className="shrink-0 rounded-lg border border-[#d7ded3] px-3 py-2 text-xl font-bold text-[#42584a] hover:bg-[#edf1e9]"
               >
                 ×
               </button>
@@ -408,7 +408,7 @@ export default function StandardsModule() {
                   selectedStandard.applicableMaterials.map((name) => (
                     <span
                       key={name}
-                      className="rounded-lg bg-emerald-100 px-3 py-2 text-sm font-semibold text-emerald-950 dark:bg-emerald-950 dark:text-emerald-200"
+                      className="rounded-lg bg-emerald-100 px-3 py-2 text-sm font-semibold text-emerald-950"
                     >
                       {name}
                     </span>
@@ -435,20 +435,20 @@ export default function StandardsModule() {
               <p>{selectedStandard.verificationNote}</p>
             </DetailSection>
 
-            <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-700 dark:bg-slate-800">
-              <p className="text-xs font-extrabold uppercase tracking-wide text-slate-600 dark:text-slate-300">
+            <div className="mt-6 rounded-xl border border-[#e1e5dc] bg-[#f7f7f1] p-4">
+              <p className="text-xs font-extrabold uppercase tracking-wide text-[#66766b]">
                 Reference edition
               </p>
 
-              <p className="mt-1 text-sm font-bold text-slate-950 dark:text-white">
+              <p className="mt-1 text-sm font-bold text-[#1d3028]">
                 {selectedStandard.year}
               </p>
 
-              <p className="mt-4 text-xs font-extrabold uppercase tracking-wide text-slate-600 dark:text-slate-300">
+              <p className="mt-4 text-xs font-extrabold uppercase tracking-wide text-[#66766b]">
                 Source
               </p>
 
-              <p className="mt-1 text-sm font-semibold text-slate-800 dark:text-slate-200">
+              <p className="mt-1 text-sm font-semibold text-[#30483b]">
                 {selectedStandard.sourceLabel}
               </p>
 
@@ -457,18 +457,18 @@ export default function StandardsModule() {
                   href={selectedStandard.source}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex rounded-lg text-sm font-extrabold text-emerald-800 underline underline-offset-4 hover:text-emerald-950 dark:text-emerald-300 dark:hover:text-emerald-200"
+                  className="mt-3 inline-flex rounded-lg text-sm font-extrabold text-[#20553e] underline underline-offset-4 hover:text-emerald-950"
                 >
                   Open reference source ↗
                 </a>
               ) : (
-                <p className="mt-2 text-sm font-semibold text-amber-800 dark:text-amber-300">
+                <p className="mt-2 text-sm font-semibold text-amber-800">
                   No source link provided.
                 </p>
               )}
             </div>
 
-            <div className="mt-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm leading-7 text-amber-950 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-100">
+            <div className="mt-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm leading-7 text-amber-950">
               <strong>Engineering verification notice:</strong> A reference
               to an IS code or guideline does not itself establish product
               compliance. Confirm the current edition, amendments, scope,
@@ -478,7 +478,7 @@ export default function StandardsModule() {
 
             <button
               onClick={() => setSelectedStandard(null)}
-              className="mt-6 w-full rounded-xl bg-slate-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200"
+              className="mt-6 w-full rounded-xl bg-slate-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-slate-800"
             >
               Close details
             </button>
@@ -501,25 +501,25 @@ function SummaryCard({
   color?: "gray" | "green" | "amber" | "blue";
 }) {
   const colors = {
-    gray: "border-slate-200 dark:border-slate-700",
-    green: "border-emerald-200 dark:border-emerald-800",
-    amber: "border-amber-200 dark:border-amber-800",
-    blue: "border-blue-200 dark:border-blue-800",
+    gray: "border-[#e1e5dc]",
+    green: "border-emerald-200",
+    amber: "border-amber-200",
+    blue: "border-blue-200",
   };
 
   return (
     <div
-      className={`rounded-2xl border bg-white p-5 shadow-sm dark:bg-slate-900 ${colors[color]}`}
+      className={`rounded-2xl border bg-[#fffefa] p-5 shadow-sm ${colors[color]}`}
     >
-      <p className="text-sm font-bold text-slate-700 dark:text-slate-300">
+      <p className="text-sm font-bold text-[#42584a]">
         {title}
       </p>
 
-      <p className="mt-2 text-3xl font-extrabold text-slate-950 dark:text-white">
+      <p className="mt-2 text-3xl font-extrabold text-[#1d3028]">
         {value}
       </p>
 
-      <p className="mt-2 text-xs font-medium leading-5 text-slate-600 dark:text-slate-300">
+      <p className="mt-2 text-xs font-medium leading-5 text-[#66766b]">
         {description}
       </p>
     </div>
@@ -535,11 +535,11 @@ function DetailSection({
 }) {
   return (
     <section className="mt-6">
-      <h3 className="mb-2 text-sm font-extrabold text-slate-950 dark:text-white">
+      <h3 className="mb-2 text-sm font-extrabold text-[#1d3028]">
         {title}
       </h3>
 
-      <div className="text-sm font-medium leading-7 text-slate-700 dark:text-slate-200">
+      <div className="text-sm font-medium leading-7 text-[#42584a]">
         {children}
       </div>
     </section>
