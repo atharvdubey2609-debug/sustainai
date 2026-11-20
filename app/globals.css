@@ -140,3 +140,72 @@ main .fixed.inset-0 > [role="dialog"] { border:1px solid #d9d1c5; box-shadow:0 2
 @media(max-width:1023px) { main header { padding-top:14px !important; } main header h2 { font-size:18px !important; } main .max-w-\\[1500px\\] { padding-top:22px; } }
 @media(max-width:640px) { main section.relative.overflow-hidden.rounded-3xl { border-radius:18px !important; } main section.relative.overflow-hidden.rounded-3xl h1 { font-size:2.45rem !important; } main article { border-radius:13px !important; } }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important; transition-duration:.01ms !important; animation-duration:.01ms !important; } }
+
+/* Accessible mobile navigation: readable in both system themes */
+main header [data-mobile-navigation="true"] {
+  gap: 8px !important;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,.38) transparent;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+main header [data-mobile-navigation="true"] button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 11px 16px !important;
+  border: 1px solid rgba(255,255,255,.28) !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,.10) !important;
+  color: #f8f6f0 !important;
+  font-size: 12px !important;
+  font-weight: 650 !important;
+  line-height: 1.25 !important;
+  white-space: nowrap;
+  box-shadow: none !important;
+}
+main header [data-mobile-navigation="true"] button:hover {
+  background: rgba(255,255,255,.18) !important;
+  border-color: rgba(255,255,255,.5) !important;
+  color: #ffffff !important;
+}
+main header [data-mobile-navigation="true"] button[class*="bg-[#174c37]"] {
+  background: #f0c64f !important;
+  border-color: #f0c64f !important;
+  color: #252a2e !important;
+  box-shadow: 0 3px 12px rgba(0,0,0,.18) !important;
+}
+main header [data-mobile-navigation="true"] button:focus-visible {
+  outline: 3px solid #ffe28a !important;
+  outline-offset: 3px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+  main header {
+    background: #172b3c !important;
+    border-color: #40576a !important;
+  }
+  main header [data-mobile-navigation="true"] button {
+    background: #263e52 !important;
+    border-color: #6b8091 !important;
+    color: #f8f6f0 !important;
+  }
+  main header [data-mobile-navigation="true"] button:hover {
+    background: #344f65 !important;
+    color: #ffffff !important;
+  }
+  main header [data-mobile-navigation="true"] button[class*="bg-[#174c37]"] {
+    background: #f0c64f !important;
+    border-color: #f0c64f !important;
+    color: #20262b !important;
+  }
+}
+@media (max-width: 640px) {
+  main header [data-mobile-navigation="true"] button {
+    min-height: 46px;
+    padding-inline: 15px !important;
+    font-size: 12px !important;
+  }
+}
+
