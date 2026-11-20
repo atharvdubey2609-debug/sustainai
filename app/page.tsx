@@ -27,21 +27,21 @@ const navigation: {
   icon: string;
   description: string;
 }[] = [
-  { name: "Overview", icon: "◫", description: "Dashboard" },
-  { name: "Material Explorer", icon: "◈", description: "Discover materials" },
+  { name: "Overview", icon: "⌂", description: "Project dashboard" },
+  { name: "Material Explorer", icon: "▦", description: "Construction material library" },
   {
     name: "Project Recommendations",
     icon: "✳",
-    description: "Find project-fit alternatives",
+    description: "Project brief & alternatives",
   },
-  { name: "Compare Materials", icon: "⇄", description: "Compare alternatives" },
-  { name: "IS Standards", icon: "▤", description: "Indian standards" },
+  { name: "Compare Materials", icon: "⇄", description: "Shortlist & select materials" },
+  { name: "IS Standards", icon: "▤", description: "Codes & specifications" },
   {
     name: "Evidence & Verification",
     icon: "✓",
-    description: "Technical evidence",
+    description: "Test reports & certificates",
   },
-  { name: "Technical Reports", icon: "▧", description: "Engineering reports" },
+  { name: "Technical Reports", icon: "▧", description: "Project documentation" },
 ];
 
 function propertyText(value: unknown): string {
@@ -372,7 +372,7 @@ export default function Home() {
 
           <div className="px-4 py-6">
             <p className="mb-3 px-3 text-[10px] font-bold tracking-[2px] text-[#9aa69a]">
-              WORKSPACE
+              PROJECT WORKFLOW
             </p>
 
             <nav className="space-y-1">
@@ -427,7 +427,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
                 <p className="text-[10px] font-semibold tracking-[2px] text-[#94a092]">
-                  SUSTAINABLE CONSTRUCTION INTELLIGENCE
+                  CONSTRUCTION MATERIALS & PROJECT PLANNING
                 </p>
 
                 <h2 className="mt-1 text-lg font-semibold">{active}</h2>
@@ -435,7 +435,7 @@ export default function Home() {
 
               <div className="flex items-center gap-3">
                 <div className="hidden rounded-full bg-[#edf3e9] px-4 py-2 text-[10px] font-medium text-[#47734f] sm:block">
-                  Engineering Decision Support
+                  Construction Project Workspace
                 </div>
 
                 <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#174c37] text-sm font-semibold text-white">
@@ -470,13 +470,13 @@ export default function Home() {
                 <section className="relative overflow-hidden rounded-3xl bg-[#174c37] p-7 text-white md:p-10">
                   <div className="relative z-10 max-w-2xl">
                     <p className="text-[10px] font-bold tracking-[3px] text-[#b7d3b7]">
-                      WELCOME TO SUSTAINAI
+                      YOUR CONSTRUCTION MATERIAL WORKSPACE
                     </p>
 
                     <h1 className="mt-4 text-3xl font-semibold leading-tight md:text-5xl">
-                      Explore beyond conventional.
+                      Plan smarter. Specify better.
                       <br />
-                      Build with confidence.
+                      Build with evidence.
                     </h1>
 
                     <p className="mt-5 max-w-xl text-sm leading-7 text-[#d2e1d1]">
@@ -491,7 +491,7 @@ export default function Home() {
                         onClick={() => navigateTo("Material Explorer")}
                         className="rounded-xl bg-white px-5 py-3 text-xs font-semibold text-[#174c37] transition hover:bg-[#eaf2e9]"
                       >
-                        Explore Materials →
+                        Browse Material Library →
                       </button>
 
                       <button
@@ -499,7 +499,7 @@ export default function Home() {
                         onClick={() => navigateTo("Compare Materials")}
                         className="rounded-xl border border-[#7eaa8b] px-5 py-3 text-xs font-semibold text-white transition hover:bg-[#286448]"
                       >
-                        Compare Alternatives
+                        Build a Material Shortlist
                       </button>
                     </div>
                   </div>
@@ -563,10 +563,10 @@ export default function Home() {
                 <section>
                   <div className="mb-5">
                     <p className="text-[10px] font-bold tracking-[2px] text-[#8a9b8b]">
-                      HOW IT WORKS
+                      PROJECT DELIVERY WORKFLOW
                     </p>
                     <h2 className="mt-2 text-xl font-semibold">
-                      From discovery to engineering decisions
+                      A practical workflow from project brief to specification
                     </h2>
                   </div>
 
@@ -574,44 +574,61 @@ export default function Home() {
                     {[
                       {
                         number: "01",
-                        title: "Discover",
-                        text: "Explore sustainable and alternative materials.",
+                        title: "Define the project",
+                        text: "Set the building or infrastructure type, use and site requirements.",
+                        section: "Project Recommendations" as Section,
+                        tag: "PROJECT BRIEF",
                       },
                       {
                         number: "02",
-                        title: "Compare",
-                        text: "Review properties, applications and limitations.",
+                        title: "Explore materials",
+                        text: "Browse conventional, sustainable and alternative construction materials.",
+                        section: "Material Explorer" as Section,
+                        tag: "MATERIAL TAKE-OFF",
                       },
                       {
                         number: "03",
-                        title: "Verify",
-                        text: "Identify relevant standards and test evidence.",
+                        title: "Shortlist & compare",
+                        text: "Compare applications, properties, advantages and limitations.",
+                        section: "Compare Materials" as Section,
+                        tag: "SELECTION",
                       },
                       {
                         number: "04",
-                        title: "Evaluate",
-                        text: "Review project-specific engineering suitability.",
+                        title: "Check IS standards",
+                        text: "Review relevant Indian Standards references for the intended application.",
+                        section: "IS Standards" as Section,
+                        tag: "SPECIFICATION",
                       },
                       {
                         number: "05",
-                        title: "Decide",
-                        text: "Make informed material selection decisions.",
+                        title: "Review site evidence",
+                        text: "Organise product-specific test reports, certificates and supporting records.",
+                        section: "Evidence & Verification" as Section,
+                        tag: "QUALITY CHECK",
+                      },
+                      {
+                        number: "06",
+                        title: "Prepare the report",
+                        text: "Compile the material review into a technical project report.",
+                        section: "Technical Reports" as Section,
+                        tag: "DOCUMENTATION",
                       },
                     ].map((step) => (
-                      <div
+                      <button
                         key={step.number}
-                        className="rounded-2xl border border-[#e5e9df] bg-white p-5"
+                        type="button"
+                        onClick={() => navigateTo(step.section)}
+                        className="group rounded-2xl border border-[#ded6ca] bg-[#fffdf8] p-5 text-left transition hover:-translate-y-1 hover:border-[#c47742] hover:shadow-lg"
                       >
-                        <p className="text-xs font-bold text-[#79a17b]">
-                          {step.number}
-                        </p>
-                        <h3 className="mt-4 text-base font-semibold">
-                          {step.title}
-                        </h3>
-                        <p className="mt-2 text-xs leading-6 text-[#849184]">
-                          {step.text}
-                        </p>
-                      </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-extrabold text-[#b65c32]">{step.number}</span>
+                          <span className="rounded-full bg-[#eee8dc] px-2.5 py-1 text-[9px] font-bold tracking-wider text-[#6b6258]">{step.tag}</span>
+                        </div>
+                        <h3 className="mt-5 text-base font-bold text-[#292a2b] group-hover:text-[#a84e2a]">{step.title}</h3>
+                        <p className="mt-2 text-xs leading-6 text-[#746f68]">{step.text}</p>
+                        <p className="mt-4 text-[10px] font-bold uppercase tracking-wider text-[#a6532e]">Open step →</p>
+                      </button>
                     ))}
                   </div>
                 </section>
