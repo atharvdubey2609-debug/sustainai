@@ -445,7 +445,7 @@ export default function Home() {
             </div>
 
             {/* MOBILE NAVIGATION */}
-            <div className="mt-4 flex gap-2 overflow-x-auto pb-1 lg:hidden">
+            <nav aria-label="Mobile primary navigation" data-mobile-navigation="true" className="mt-4 flex gap-2 overflow-x-auto pb-2 lg:hidden">
               {navigation.map((item) => (
                 <button
                   key={item.name}
@@ -460,7 +460,7 @@ export default function Home() {
                   {item.name}
                 </button>
               ))}
-            </div>
+            </nav>
           </header>
 
           <div className="mx-auto max-w-[1500px] px-5 py-7 md:px-8 md:py-9">
