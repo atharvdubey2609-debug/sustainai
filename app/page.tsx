@@ -1073,6 +1073,9 @@ export default function Home() {
                 <p className="text-[10px] tracking-wide text-[#9aa69a]">
                   EXPLORE · COMPARE · VERIFY · BUILD
                 </p>
+                <p className="w-full text-[9px] text-[#8b857b]">
+                  Site photography: <a href="https://unsplash.com/photos/a-construction-site-with-a-crane-in-the-background-kO8f82u73Es" target="_blank" rel="noreferrer" className="underline">Jan Huber</a> and <a href="https://unsplash.com/photos/a-construction-site-with-a-crane-in-the-background-4BTjXeMwcb8" target="_blank" rel="noreferrer" className="underline">novila misastra</a> via Unsplash.
+                </p>
               </div>
             </footer>
           </div>
