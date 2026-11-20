@@ -25,11 +25,9 @@ html { min-height: 100%; scroll-behavior: smooth; background: var(--background);
 body {
   min-height: 100vh; margin: 0; color: var(--foreground);
   background:
-    linear-gradient(rgba(255,255,255,.22) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.22) 1px, transparent 1px),
-    radial-gradient(ellipse at 80% 0%, rgba(203,189,168,.24), transparent 34rem),
-    #eeece6;
-  background-size: 34px 34px, 34px 34px, auto, auto;
+    linear-gradient(rgba(238,236,230,.95),rgba(238,236,230,.95)),
+    url("https://images.unsplash.com/photo-1684497404598-6e844dff9cde?auto=format&fit=crop&fm=jpg&q=75&w=1800") center / cover fixed;
+  background-size: auto, cover;
   font-family: var(--font-geist-sans), Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -86,8 +84,8 @@ main section.relative.overflow-hidden.rounded-3xl {
   isolation: isolate; position: relative; border: 1px solid rgba(255,255,255,.14) !important;
   border-radius: 24px !important;
   background:
-    linear-gradient(90deg,rgba(29,34,38,.97) 0%,rgba(44,48,49,.93) 54%,rgba(90,59,43,.88) 100%),
-    repeating-linear-gradient(135deg,transparent 0 18px,rgba(255,255,255,.035) 18px 20px) !important;
+    linear-gradient(90deg,rgba(25,30,34,.94) 0%,rgba(37,42,45,.82) 48%,rgba(77,51,38,.60) 100%),
+    url("https://images.unsplash.com/photo-1609867271967-a82f85c48531?auto=format&fit=crop&fm=jpg&q=80&w=2400") center 54% / cover no-repeat !important;
   box-shadow: 0 18px 45px rgba(49,45,39,.18), inset 0 1px 0 rgba(255,255,255,.1);
 }
 main section.relative.overflow-hidden.rounded-3xl:after {
@@ -106,6 +104,7 @@ main article,main .rounded-2xl.border,main .rounded-3xl.border {
   transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease;
 }
 main article { overflow:hidden; background:#fffdf8 !important; border-radius:15px !important; }
+main article .relative.flex.items-center.justify-center { background-image:linear-gradient(135deg,rgba(52,58,64,.08),rgba(166,83,50,.08)); }
 main article:hover { border-color:#b66c49 !important; box-shadow:0 14px 32px rgba(75,54,39,.13); transform:translateY(-3px); }
 main article h3 { color:#292a2b !important; font-size:16px; font-weight:750 !important; }
 main article img { transition:transform .5s ease,filter .3s ease; }
